@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/kayle_title.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/icon.png">
 </head>
 <body>
 <header>
@@ -37,7 +37,7 @@
     <div class="nav-opacity">
         <div class="nav-opacity-left">
 <!--            <a class="logo-lang" href="/"><img src="images/fr.svg" alt="logo" width="20"></a>-->
-            <a target="_blank" download="Images Test" class="iconsAppli mobile_icon" href="images/test.jpg" rel="noopener">CV <i class="icon fa fa-download"
+            <a target="_blank" download="CV" class="iconsAppli mobile_icon" href="images/test.jpg" rel="noopener">CV <i class="icon fa fa-download"
                                                                                          title="download"></i></a>
         </div>
         <div class="nav-opacity-right">
@@ -45,9 +45,14 @@
                                                                                          title="Facebook"></i></a>
             <a target="_blank" class="iconsAppli mobile_icon" href="#" rel="noopener"><i class="icon fa fa-instagram"
                                                                                          title="Instagram"></i></a>
-            <a target="_blank" class="iconsAppli mobile_icon" href="#" rel="noopener"><i class="icon fa fa-whatsapp"
-                                                                                         title="whatsapp"></i></a>
+            <a target="_blank" class="iconsAppli mobile_icon" href="#" rel="noopener"><i class="icon fa fa-github"
+                                                                                         title="Github"></i></a>
         </div>
+    </div>
+    <div style="display: flex; justify-content: center; align-content: flex-end; position: relative;">
+        <a href="#next" class="animate-bounce" style="color: white; font-size: 60px; text-decoration: none; animation: bounce 1s infinite alternate;">
+            <p style="rotate: 90deg;">»</p>
+        </a>
     </div>
 </section>
 <!--<section class="section-accueil" id="other">-->
@@ -64,7 +69,23 @@
         background-size: cover;
     }
     .animate-bounce {
-        animation: bounce 1s infinite;
+        animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+        from {
+            transform: translateY(0px);
+        }
+        to {
+            transform: translateY(-15px);
+        }
+    }
+    @-webkit-keyframes bounce {
+        from {
+            transform: translateY(0px);
+        }
+        to {
+            transform: translateY(-15px);
+        }
     }
 </style>
 </html>
