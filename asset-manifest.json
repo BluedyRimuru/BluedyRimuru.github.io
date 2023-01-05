@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.f03b06f9.css",
-    "main.js": "./static/js/main.35bbd093.js",
+    "main.js": "./static/js/main.fa9e022d.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
@@ -46,6 +46,7 @@
     "static/media/github_logo.png": "./static/media/github_logo.15e591a7397b9ef45656.png",
     "static/media/googleAssistant.jpg": "./static/media/googleAssistant.547075a751cc15673246.jpg",
     "static/media/projects_image.svg": "./static/media/projects_image.0a8062569966b4888c7c.svg",
+    "static/media/ort.png": "./static/media/ort.73fdeb9a28aa5366b7a5.png",
     "static/media/programmer.svg": "./static/media/programmer.d3060f7bf0527835d72e.svg",
     "static/media/jsFramework.svg": "./static/media/jsFramework.911c595a22a28c7b6f78.svg",
     "static/media/address_image.svg": "./static/media/address_image.3385d92e5e426e57a5b1.svg",
@@ -64,10 +65,10 @@
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.f03b06f9.css.map": "./static/css/main.f03b06f9.css.map",
-    "main.35bbd093.js.map": "./static/js/main.35bbd093.js.map"
+    "main.fa9e022d.js.map": "./static/js/main.fa9e022d.js.map"
   },
   "entrypoints": [
     "static/css/main.f03b06f9.css",
-    "static/js/main.35bbd093.js"
+    "static/js/main.fa9e022d.js"
   ]
 }
