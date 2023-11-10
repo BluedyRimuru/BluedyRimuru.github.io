@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+<button id="themeToggle">Thème</button>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const themeToggle = document.getElementById("themeToggle");
+        const body = document.body;
+
+        themeToggle.addEventListener("click", function () {
+            body.classList.toggle("dark");
+        });
+    });
+</script>
+</html>
