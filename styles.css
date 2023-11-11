@@ -1,11 +1,146 @@
 :root {
-
+    --background-color: #DADCE1;
+    --background-image-accueil: url("images/accueil_bg_light.png");
+    --font-color: black;
+    --star-color: black;
 }
 
 * {
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body.dark {
+    --background-color: #212035;
+    --background-image-accueil: url("images/accueil_bg_dark.png");
+    --font-color: white;
+    --star-color: white;
+}
 
+body {
+    background-color: var(--background-color);
+    height: 200vh;
+}
+
+#themeToggle img {
+    transition: transform 0.2s ease;
+}
+
+body.dark #themeToggle img {
+    transform: rotate(180deg);
+}
+
+header {
+    background-color: rgba(33, 32, 53, 0.9);
+    padding: 20px 60px;
+    box-shadow: 0 16px 18px -20px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+header div img {
+    width: 100px;
+}
+
+header a {
+    color: white;
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+    transition: filter 0.2s ease, opacity 0.2s ease;
+}
+
+.header-second a {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header a img {
+    width: 30px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.header-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-second {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.accueil {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--background-image-accueil);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.accueil h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+
+.competences {
+    padding: 160px 160px;
+    height: 100vh;
+}
+
+h2 {
+    color: var(--font-color);
+    font-size: 3em;
+}
+
+h3 {
+    color: var(--font-color);
+    font-size: 2em;
+}
+
+.competences h3 {
+    padding: 20px 0;
+}
+
+.fa-star {
+    color: var(--star-color);
+}
+
+.checked {
+    color: orange;
+}
+
+.liste-competences {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.competence-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.competence-item img {
+    padding-right: 20px;
+}
+
+.projets {
+    height: 100vh;
 }
